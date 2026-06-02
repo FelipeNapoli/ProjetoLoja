@@ -70,7 +70,7 @@ nav ul li a:hover {
 }
 
 #conteiner {
-    padding: 40px 15%;
+    padding: 40px 16%;
 
 }
 .titulo {
@@ -84,12 +84,44 @@ nav ul li a:hover {
     font-size: 2rem;
     font-family: 'Bebas Neue', cursive;
     text-align: center;
-    width: 65%;
+    width: 55%;
     height: 45px;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     color: var(--bg-card);
     background: var(--bg-dark);
     box-shadow: 3px 3px 2px var(--secondary-color);
     border-radius: 10px;
 
+}
+.home {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    background: var(--bg-card);
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px #1f1e1e;
+    border: 4px solid var(--bg-dark);
+}
+
+.home img {
+    background: var(--color-primary);
+    border: 4px solid var(--bg-dark);
+    border-radius: 10px;
+}
+
+.home h2 {
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: var(--color-primary);
+}
+
+.home p {
+    font-size: 1.1rem;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: var(--bg-dark);
 }
