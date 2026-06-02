@@ -125,3 +125,14 @@ nav ul li a:hover {
     text-align: center;
     color: var(--bg-dark);
 }
+
+footer {
+    background: var(--bg-dark);
+    color: var(--text-color);
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    padding: 20px 0;
+    margin-top: 40px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+}
