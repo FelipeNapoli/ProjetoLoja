@@ -73,4 +73,23 @@ nav ul li a:hover {
     padding: 40px 15%;
 
 }
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
 
+.titulo h2 {  
+    font-size: 2rem;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    width: 65%;
+    height: 45px;
+    margin-bottom: 40px;
+    color: var(--bg-card);
+    background: var(--bg-dark);
+    box-shadow: 3px 3px 2px var(--secondary-color);
+    border-radius: 10px;
+
+}
