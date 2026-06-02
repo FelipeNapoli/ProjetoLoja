@@ -1,4 +1,8 @@
+/* Fonte importada */
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Variáveis de cor */
 
 :root {
     --color-primary: #32378C;
@@ -9,6 +13,8 @@
     --bg-rgba:rgba(0, 0, 0, 0.8);
     --third-color:#4e1999;
 }
+
+/* Estilos globais */
 
 *{
     margin: 0;
@@ -73,6 +79,8 @@ nav ul li a:hover {
     padding: 40px 16%;
 
 }
+/* Página Home */
+
 .titulo {
     display: flex;
     justify-content: center;
@@ -135,4 +143,23 @@ footer {
     margin-top: 40px;
     border: 1px solid var(--secondary-color);
     border-radius: 4px;
+}
+
+/* Página Produtos */
+
+#decoração {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 63%;
+    z-index: 10;
+    overflow: hidden;
+}
+
+#decoração2 {
+    justify-content: center;
+    display: flex;
+    position: relative;
+
 }
