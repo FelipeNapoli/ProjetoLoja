@@ -7,7 +7,7 @@
     --bg-card:#f2be22;
     --text-color:#fff;
     --bg-rgba:rgba(0, 0, 0, 0.8);
-    --btn-color:#4e1999;
+    --third-color:#4e1999;
 }
 
 *{
@@ -68,3 +68,9 @@ nav ul li a:hover {
     text-decoration: underline;
     text-transform: uppercase;
 }
+
+#conteiner {
+    padding: 40px 15%;
+
+}
+
