@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --color-primary: #32378C;
+    --secondary-color: #f2be22;
+    --bg-dark: #141414;
+    --bg-card:#f2be22;
+    --text-color:#fff;
+    --bg-rgba:rgba(0, 0, 0, 0.8);
+    --btn-color:#4e1999;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'bebas neue', cursive;
+}
+
+body {
+    background-color: var(--color-primary);
+    color:var(--text-color)   
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background: var(--bg-dark);
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+}
+.raio {
+    width: 4%;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 35px;
+}
+
+.letreiro {
+    margin-bottom: -55px;
+    z-index: 10;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    padding: 15px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.2rem;
+}
+
+nav ul li a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.carrinho {
+    color: var(--secondary-color);
+}
+
+nav ul li a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+    text-transform: uppercase;
+}
