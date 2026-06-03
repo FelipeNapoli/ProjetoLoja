@@ -204,14 +204,16 @@ footer {
     background: var(--bg-card);
     border-radius: 15px;
     overflow: hidden;
-    transition: transform 03s ease;
+    transition: transform 01s ease;
     border: 4px solid var(--bg-dark);
+    box-shadow: 3px 3px 2px #1f1e1e;
 }
 
 .card-choque:hover {
     transform: translateY(-10px);
     border: 5px solid;
-    border-color: #6A2DA6;
+    border-color: var(--third-color);
+    box-shadow: 5px 5px 3px var(--bg-dark);
 }
 
 .card-choque img {
