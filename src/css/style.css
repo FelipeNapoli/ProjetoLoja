@@ -115,7 +115,7 @@ nav ul li a:hover {
 @media (max-width: 768px) {
   .titulo h2 {
     width: 100%;
-    font-size: 1.9rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -189,9 +189,7 @@ footer {
 
 @media (max-width: 768px) {
   #decoração {
-    width: 40%;
-    margin-top: 5px;
-    margin-left: 45%;
+    display: none;
   }
 }
 
